@@ -224,7 +224,7 @@ function mountGlobalAds(route) {
 function removeScriptTag() {
   const scriptEl =
     document.getElementById('csr-app-script') ||
-    document.querySelector('script[src*="app.js"]');
+    document.querySelector('script[src*="https://cdn.jsdelivr.net/gh/luqmanthinkpad/bunbunx/app1.js"]');
   if (scriptEl && scriptEl.parentNode) {
     scriptEl.parentNode.removeChild(scriptEl);
   }
